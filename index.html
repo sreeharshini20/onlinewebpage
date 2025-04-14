@@ -525,55 +525,7 @@
         .newsletter button:hover {
             color: #fff;
         }
-        @media (max-width: 991px) {
-            .navbar, .header, .horizontal-layout {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-
-            .navbar a, .header a {
-                margin: 5px 0;
-                font-size: 14px;
-            }
-
-            .main-page h1, .clients-text h1 {
-                font-size: 24px;
-            }
-
-            .client-logos {
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .client-logos img {
-                width: 80px;
-                margin: 10px;
-            }
-            .feature-text p {
-                font-size: 28px;
-            }
-            .feature-text h1 {
-                font-size: 20px;
-            }
-            .design-text h1 {
-                font-size: 20px;
-            }
-            .design-text p {
-                font-size: 28px;
-            }
-
-            .blog-header h2{
-                font-size: 20px;
-            }
-            .blog-header p{
-                font-size: 28px;
-            }
-
-
-
-        }
-
-        @media (max-width: 320px) {
+        @media (max-width: 767px) {
             body {
                 overflow-x: hidden;
             }
@@ -609,29 +561,31 @@
                 max-width: 60px;
                 height: auto;
             }
-            .feature-text p {
+
+            .feature-text p,
+            .feature-text h1,
+            .design-text p,
+            .design-text h1,
+            .blog-header h2,
+            .blog-header p,
+            .boat-text p {
                 font-size: 15px;
-            }
-            .feature-text h1 {
-                font-size: 15px;
-            }
-            .design-text p {
-                font-size: 15px;
-            }
-            .design-text h1 {
-                font-size: 15px;
-            }
-            .blog-header h2{
-                font-size: 15px;
-            }
-            .blog-header p{
-                font-size: 13px;
-            }
-            .boat-text p{
-                font-size:15px;
             }
 
+            .blog-header p {
+                font-size: 13px;
+            }
+            .business-left h1{
+                text-align:center;
+            }
+            .business-left p{
+                text-align:center;
+            }
+            .business-impact{
+                align-items:center;
+            }
         }
+
 
 
 
@@ -830,7 +784,7 @@
                 <h2 style="color:green">Tim Smith</h2>
                 <h3 style="color:gray">British Dragon Boat Racing Association</h3>
                 <div class="logos">
-                    <img src="./assets/Logo.jpg" alt="Logo 1">
+                    <img src="./assets/Logo (5).jpg" alt="Logo 1">
                     <img src="./assets/Logo.png" alt="Logo 2">
                     <img src="./assets/Logo (1).jpg" alt="Logo 3">
                     <img src="./assets/Logo (4).jpg" alt="Logo 4"><br>
